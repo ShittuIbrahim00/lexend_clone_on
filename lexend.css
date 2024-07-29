@@ -1,0 +1,397 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.end {
+    padding: 2% 0 0 10%;
+    background-color:  rgb(245,238,233);
+    font-weight: 600;
+    font-size: 18px;
+}
+.margin {
+    width: 90%;
+    margin: auto;
+}
+.flex {
+    display: flex;
+}
+.grid {
+    display: grid;
+}
+.green {
+    color: rgb(18,113,91);
+    font-weight: bold;
+    font-size: 20px;
+}
+.lightgrey {
+    color: rgb(96,97,98);
+    font-size: 20px;
+}
+.nav {
+    width: 100%;
+    justify-content:center ;
+    align-items: center;
+    font-family: "IBM Plex Sans Arabic", serif;
+}
+.middle_nav {
+    gap: 40px;
+    text-transform: capitalize;
+    width: 50%;
+}
+.right_nav {
+    text-transform: capitalize;
+    width: 40%;
+    gap: 40px;
+    align-items: center;
+}
+button {
+    height: 35px;
+    width: 120px;
+    border-radius: 5px;
+    background-color: rgb(18,113,91);
+    border: none;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+}
+.three_img {
+    background-image: url(https://unistudio.co/html/lexend/assets/images/template/hero-two.png);
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.textimg {
+    align-items: center;
+    padding-top: 30px;
+}
+.Streamline {
+    flex-direction: column;
+    gap: 40px;
+    padding: 0 0 7% 10% ;
+}
+.Streamline h1 {
+    font-size: 70px;
+}
+.mail {
+    width: 120%;
+}
+input {
+    height: 35px;
+    width: 50%;
+    border-radius: 10px;
+    border-color:none;
+}
+.cap_ctn {
+    justify-content: space-around;
+    background-color: rgb(245,238,233);
+    padding: 7%;
+}
+.center_ctn {
+    justify-content: center;
+    width: 50%;
+    text-align: center;
+}
+.center {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 80px;
+}
+.center_ctn h2 {
+    font-size: 43px;
+}
+.three_box {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin: 90px;
+}
+.bg_color {
+    background-color: rgb(245,238,233);
+    width: 90%;
+    padding: 10%;
+    border-radius: 20px
+}
+.audit {
+    background-image: url(https://unistudio.co/html/lexend/assets/images/template/feature-01.svg);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.downtext {
+    margin: 20px 10px;
+}
+.downtext p {
+    margin: 20px 0px;
+}
+.tool {
+    background-image: url(https://unistudio.co/html/lexend/assets/images/template/feature-02.svg);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.apps {
+    background-image: url(https://unistudio.co/html/lexend/assets/images/template/feature-03.svg);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.firstpink {
+    background-color: rgb(245,238,233);
+    height: 200px;
+}
+.four_box {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.proposal img {
+    width: 70px;
+    border-radius: 50px;
+    background-color: #F3F3F3;
+    padding: 5%;
+}
+.proposal img:hover {
+      background-color:#126C57 ;
+      color: #F3F3F3;
+}
+.pink {
+    background-color: rgb(245,238,233);
+    height: 400px;
+}
+.h_two {
+    justify-content: center;
+    font-size: 50px;
+}
+.downtext_one {
+    margin: 10% 0;
+    flex-direction: column;
+    text-align: center;
+}
+.secondbg_color {
+    width: 85%;
+   padding: 10%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: white;
+   border-radius: 20px;
+}
+.secondbg_color:hover {
+    cursor: pointer;
+    background-color: #12715B;
+    color: #F3F3F3;
+}
+.p_one {
+    justify-content: center;
+}
+.firstpink_one {
+    background-color: rgb(245,238,233);
+}
+.second_third {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    padding: 0 60px;
+}
+.Essential_one {
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    background-color: rgb(245,238,233);
+    border-radius: 10px;
+}
+.button_two {
+    flex-direction: column;
+    align-items: center;
+}
+.longbtn {
+    height: 50px;
+    width: 80%;
+    border-radius: 5px;
+    background-color: rgb(18,113,91);
+    border: none;
+    text-transform: capitalize;
+    color: white;
+}
+.smallP {
+    color: rgb(96,97,98);
+}
+.one {
+    flex-direction: column;
+    gap: 40px;
+    width: 50%;
+    background-color: rgb(245,238,233);
+    padding: 70px;
+    border-radius: 10px;
+}
+.third_third {
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 70%;
+}
+.bolt {
+    border: .1px solid grey;
+    padding: 30px;
+    width: 90%;
+    border-radius: 10px;
+}
+.Boltshift img {
+    width: 80%;
+}
+.Boltshiftwo img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+.bolt_textwo {
+    padding-top: 5px;
+    flex-direction: column;
+}
+.bolt_textwo h2 {
+    font-size: medium;
+}
+.bolt_textwo p {
+    font-size: small;
+}
+.light_text {
+    width: 80%;
+    padding: 5% 0;
+}
+.feed {
+    padding-top: 30px;
+}
+.forth_third {
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(245,238,233);
+    padding: 5%;
+}
+.background {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    background-color: rgb(245,238,233);
+    background-attachment: fixed;
+    padding: 5%;
+}
+.white {
+    padding: 3%;
+    background-color: white;
+    border-radius: 25px;
+}
+.picture img {
+    width: 90%;
+    border-radius: 15px;
+    background-attachment: fixed;
+    transition: .5s; 
+}
+.picture:hover img {
+    cursor: pointer;
+    transform: scale(1.05);
+
+}
+.heading {
+    width: 90%;
+    padding-left: 12%;
+    margin: 10px 0;
+    text-align: center;
+}
+.img_text {
+    font-size: small;
+    justify-content: center;
+    margin: 10px 0;
+}
+.img_text img {
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+}
+.sect_one {
+    grid-template-columns: 1fr 4fr 1fr;
+    margin: 50px 0;
+}
+.talking {
+    background-image: url(/img_lex/talking.svg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.chatting {
+    background-image: url(/img_lex/chatting.svg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.sect_mid {
+    margin-top: 5%;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.mail_two {
+    justify-content: center;
+    width: 70%;
+}
+.h_three {
+    width: 50%;
+    text-align: center;
+    font-size: 50px;
+}
+.sect_two {
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    padding: 5% 0;
+    gap: 30px;
+}
+.store img {
+    width: 100px;
+}
+.left {
+    flex-direction: column;
+    gap: 20px;
+}
+.footer_text {
+    flex-direction: column;
+    gap: 10px;
+}
+.sect_three {
+    justify-content: space-between;
+    padding: 5% 0 ;
+}
+.sect_three_left {
+    padding-top: 1%;
+    gap: 15px;
+}
+.sect_three_right img {
+    width: 50px;
+}
+.business {
+    justify-content: space-between;
+    right: 3%;
+    top: 1px;
+}
+.small {
+    width: 20%;
+    height: 20px;
+}
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+.btn_blk {
+    background-color: black;
+}
+.money img{
+    width: 20%;   
+}
+.money {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 190%;
+    /* justify-content: space-evenly; */
+}
