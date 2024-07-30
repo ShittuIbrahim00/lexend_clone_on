@@ -90,6 +90,9 @@ input {
     background-color: rgb(245,238,233);
     padding: 7%;
 }
+.cap_ctn div{
+    width: 15%;
+}
 .center_ctn {
     justify-content: center;
     width: 50%;
